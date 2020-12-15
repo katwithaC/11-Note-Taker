@@ -14,9 +14,9 @@ app.get("/", function (req, res) {
 
 
 
-app.get('/notes', function (req, res) }
-res.send('GET request to the homepage')
-)
+app.get('/notes', function (req, res) {
+    res.send('GET request to the homepage')
+})
 
 app.get('*', function (req, res) {
     res.send('GET request to the homepage')
