@@ -1,22 +1,14 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "\"\"",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "katwithaC"
-  },
-  "keywords": [
-    "Note",
-    "Taker"
-  ]
+    "express": "^4.16.4"
+  }
 }
